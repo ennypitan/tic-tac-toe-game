@@ -3,11 +3,14 @@ import { useState } from "react";
 
 function Players({ name, symbol }) {
   const [isEditing, setIsEditing] = useState(false);
+  const [editedName, setEditedName] = useState(name);
 
   const handleEditClick = () => {
     // setIsEditing({ isEditing: true });
-    setIsEditing(true);
-    console.log(isEditing);
+    setIsEditing((edit) => !edit);
+  };
+  const handleNameChange = (event) => {
+    setEditedName(event.target.value);
   };
 
   return (
@@ -15,13 +18,18 @@ function Players({ name, symbol }) {
       <li>
         <span className="player">
           {isEditing === false ? (
-            <span className="player-name">{name}</span>
+            <span className="player-name">{editedName}</span>
           ) : (
-            <input type="text" required></input>
+            <input
+              type="text"
+              required
+              value={editedName}
+              onChange={handleNameChange}
+            ></input>
           )}
           <span className="player-symbol">{symbol}</span>
         </span>
-        <button onClick={handleEditClick}>Edit</button>
+        <button onClick={handleEditClick}>{isEditing ? "Save" : "Edit"}</button>
       </li>
     </>
   );
