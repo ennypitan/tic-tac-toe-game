@@ -28,7 +28,7 @@ body {
   background-size: 100% 100%, 30% 30%, 100% 100%;
   min-height: 110rem; */
   background-color: purple;
-  background-image: url(assets/bgImg2.jpg);
+  background-image: url(assets/bgImg4.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -39,7 +39,8 @@ header {
   justify-content: center;
   align-items: center;
   text-align: center;
-  border: 2px dotted white;
+  color: purple;
+  border: 3px solid purple;
 }
 
 header img {
