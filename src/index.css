@@ -107,7 +107,7 @@ h1 {
   cursor: pointer;
   transition: color 0.2s;
   padding: 0.5rem 0.25rem 0.25rem 0.25rem;
-  text-align: center;
+  text-align: left;
 }
 
 #players button:hover {
