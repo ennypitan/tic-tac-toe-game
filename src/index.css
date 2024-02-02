@@ -18,15 +18,10 @@ html {
 }
 
 body {
-  background-color: rgb(128, 0, 128, 0.4);
+  background-color: #56baed;
 }
 main {
   height: 100vh;
-  background-image: url(assets/bgImg4.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  padding: 4.5rem;
 }
 header {
   display: flex;
@@ -57,8 +52,9 @@ h1 {
   margin: 3rem auto;
   padding: 2rem;
   border-radius: 6px;
-  background: linear-gradient(#383624, #282617);
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  background: #56baed;
+  /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); */
+  border: 1px solid white;
   position: relative;
 }
 
@@ -80,20 +76,20 @@ h1 {
 }
 
 #players.highlight-player li.active {
-  border-color: #f6e35a;
+  border-color: white;
   animation: pulse 2s infinite ease-in-out;
 }
 
 #players.highlight-player li.active .player-name,
 #players.highlight-player li.active .player-symbol {
-  color: #f6e35a;
+  color: white;
 }
 
 #players button {
   width: 3rem;
   border: none;
   background: none;
-  color: #c3ba78;
+  color: white;
   font-size: 0.9rem;
   cursor: pointer;
   transition: color 0.2s;
@@ -102,7 +98,7 @@ h1 {
 }
 
 #players button:hover {
-  color: #f8ca31;
+  color: white;
 }
 
 .player {
@@ -116,7 +112,7 @@ h1 {
   display: inline-block;
   width: 10rem;
   font-size: 1rem;
-  color: #e1dec7;
+  color: yellow;
   text-transform: uppercase;
   margin: 0;
   padding: 0.5rem;
@@ -168,8 +164,8 @@ ol {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
-  margin: 3rem 0;
+  gap: 0.5rem;
+  margin: 5.5rem 0;
   padding: 0;
   flex-direction: column;
 }
@@ -178,7 +174,7 @@ ol {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 2rem;
+  gap: 0.5rem;
   margin: 0;
   padding: 0;
 }
@@ -186,9 +182,10 @@ ol {
 #game-board button {
   width: 8rem;
   height: 8rem;
+  border-radius: 10px;
   border: none;
-  background: #aca788;
-  color: #3f3b00;
+  background: white;
+  color: #56baed;
   font-size: 5rem;
   cursor: pointer;
   font-family: "Caprasimo", cursive;
