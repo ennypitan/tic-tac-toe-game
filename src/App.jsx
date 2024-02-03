@@ -68,6 +68,11 @@ function App() {
       return updatedTurns;
     });
   };
+
+  const handleRestart = () => {
+    setGameTurns([]);
+  };
+
   return (
     <>
       <Header />
@@ -85,7 +90,9 @@ function App() {
               isActive={activePlayer === "O"}
             />
           </ol>
-          {(winner || hasDraw) && <GameOver winner={winner} />}
+          {(winner || hasDraw) && (
+            <GameOver winner={winner} onRestart={handleRestart} />
+          )}
           <GameBoard
             onSelectSquare={handleSelectSquare}
             activePlayerSymbol={activePlayer}
