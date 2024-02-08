@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: purple;
+  border: 3px solid purple;
+  padding: 1rem 0;
+  & img {
+    width: 5rem;
+    object-fit: contain;
+    margin-right: 2rem;
+    /* margin: 1rem auto 1rem auto; */
+    filter: drop-shadow(0 0 8px rgba(0, 0, 0, 0.4));
+  }
+}
