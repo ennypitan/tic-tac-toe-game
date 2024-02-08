@@ -5,9 +5,8 @@
   text-align: center;
   color: purple;
   border: 3px solid purple;
-  padding: 1rem 0;
   & img {
-    width: 5rem;
+    width: 6rem;
     object-fit: contain;
     margin-right: 2rem;
     /* margin: 1rem auto 1rem auto; */
