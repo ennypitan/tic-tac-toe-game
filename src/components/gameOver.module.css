@@ -37,7 +37,7 @@
   border-radius: 4px;
   cursor: pointer;
   transition: all 0.2s, color 0.2s;
-  box-shadow: 0 0 8px rgba(255, 187, 0, 0.4);
+  box-shadow: 0 0 8px rgba(23, 23, 22, 0.4);
   &:hover {
     background: #56baed;
     color: white;
