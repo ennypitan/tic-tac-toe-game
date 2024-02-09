@@ -28,7 +28,7 @@ p {
   color: #56baed;
 }
 
-button {
+Button {
   display: block;
   margin: 0 auto;
   font-size: 1.5rem;
@@ -40,11 +40,10 @@ button {
   cursor: pointer;
   transition: all 0.2s, color 0.2s;
   box-shadow: 0 0 8px rgba(255, 187, 0, 0.4);
-}
-
-#game-over button:hover {
-  background: #56baed;
-  color: white;
-  transform: scale(1.1);
-  box-shadow: 0 0 20px rgb(86, 186, 237, 0.8);
+  &:hover {
+    background: #56baed;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgb(86, 186, 237, 0.8);
+  }
 }
