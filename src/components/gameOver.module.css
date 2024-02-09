@@ -10,25 +10,23 @@
   align-items: center;
   background-color: rgb(255, 255, 255, 0.8);
   animation: pop-in 0.5s cubic-bezier(0.68, -0.55, 0.65, 0.52) forwards;
-  border: 1px solid red;
 }
 
-h2 {
+.g-over-title {
   font-family: "Caprasimo", cursive;
   font-size: 4rem;
   text-align: center;
-  color: #56ed6d;
+  color: #56baed;
   margin: 0;
-  border: 1px solid red;
 }
 
-p {
+.gameOver-p {
   font-size: 2.1rem;
   text-align: center;
   color: #56baed;
 }
 
-Button {
+.gameOver-button {
   display: block;
   margin: 0 auto;
   font-size: 1.5rem;
