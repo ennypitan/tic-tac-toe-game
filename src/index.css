@@ -338,6 +338,7 @@ ol {
   }
 
   .player-name {
+    display: flex;
     width: 50%;
   }
 
