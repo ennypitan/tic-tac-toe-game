@@ -292,13 +292,14 @@ ol {
 @media screen and (max-width: 480px) and (min-width: 320px) {
   #game-container {
     width: 100%;
-    margin: 0rem auto;
+    margin: 1rem auto;
     padding: 1rem;
-    border: 1px solid red;
   }
 
   #players {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     flex-direction: column;
     list-style: none;
     padding: 0;
@@ -311,13 +312,20 @@ ol {
     align-items: center;
     width: 100%;
     border: 2px solid transparent;
-    border: 1px solid black;
   }
 
   .player-name {
     justify-content: space-between;
     align-items: center;
-    width: 50%;
+
+    border: 1px solid black;
+  }
+  .player {
+    border: 2px solid transparent;
+    padding: 0.5rem;
+    border-radius: 4px;
+    font-weight: bold;
+    width: 80%;
   }
 
   .player input {
@@ -330,33 +338,6 @@ ol {
     background-color: #46432f;
     text-align: center;
     text-transform: uppercase;
-  }
-
-  .player-symbol {
-    margin-left: 1rem;
-    font-size: 1rem;
-    color: #e1dec7;
-  }
-
-  ol {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  #pre-game {
-    text-align: center;
-  }
-
-  #pre-game button {
-    cursor: pointer;
-    background: none;
-    color: #f8c031;
-    border: none;
-    font-family: "Caprasimo", cursive;
-    font-size: 4rem;
-    text-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
-    animation: pulse-text-size 2s infinite ease-out;
   }
 }
 @media screen and (max-width: 768px) and (min-width: 481px) {
