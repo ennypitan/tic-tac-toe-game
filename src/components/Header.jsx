@@ -8,8 +8,8 @@ function Header() {
       <header className={styles.header}>
         <img src={logoImg} alt="logo" />
         <span className={styles["top-title"]}>
-          <h2>Tic-Tac-Toe</h2>
-          <h4>By Ennypitan</h4>
+          {/* <h2>Tic-Tac-Toe</h2>
+          <h4>By Ennypitan</h4> */}
         </span>
       </header>
     </>
