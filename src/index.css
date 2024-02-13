@@ -99,7 +99,7 @@ h1 {
   color: yellow;
   text-transform: uppercase;
   margin: 0;
-  padding: 0.5rem;
+  padding: 0.7rem;
   border-radius: 4px;
   text-overflow: ellipsis;
   text-align: center;
@@ -139,7 +139,7 @@ ol {
   color: #f8c031;
   border: none;
   font-family: "Caprasimo", cursive;
-  font-size: 4rem;
+  font-size: 4.1rem;
   text-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
   animation: pulse-text-size 2s infinite ease-out;
 }
@@ -170,7 +170,7 @@ ol {
   border: none;
   background: white;
   color: #56baed;
-  font-size: 5rem;
+  font-size: 5.1rem;
   cursor: pointer;
   font-family: "Caprasimo", cursive;
   padding: 1rem;
@@ -290,8 +290,8 @@ ol {
 @media screen and (max-width: 480px) and (min-width: 320px) {
   #game-container {
     width: 100%;
-    margin: 1rem auto;
-    padding: 1rem;
+    margin: 1.1rem auto;
+    padding: 1.1rem;
   }
 
   #players {
