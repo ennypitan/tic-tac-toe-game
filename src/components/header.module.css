@@ -4,9 +4,9 @@
   align-items: center;
   text-align: center;
   padding: 0.6rem 0;
-  border: 3px solid white;
+  border: 3.1px solid white;
   & img {
-    width: 15%;
+    width: 16%;
     object-fit: contain;
     margin-right: 2rem;
     /* margin: 1rem auto 1rem auto; */
