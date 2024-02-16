@@ -27,7 +27,7 @@ h4 {
   .header {
     justify-content: flex-start;
     padding: 0.6rem 1rem;
-    border: 3px solid white;
+    border: 3.1px solid white;
     & img {
       width: 30%;
     }
@@ -37,7 +37,7 @@ h4 {
   .header {
     justify-content: flex-start;
     padding: 0.6rem 1rem;
-    border: 3px solid white;
+    border: 3.1px solid white;
     & img {
       width: 30%;
     }
@@ -46,7 +46,7 @@ h4 {
 @media screen and (max-width: 1024px) and (min-width: 769px) {
   .header {
     justify-content: flex-start;
-    padding: 0.6rem 1rem;
+    padding: 0.6rem 1.1rem;
     border: 3px solid white;
     & img {
       width: 30%;
