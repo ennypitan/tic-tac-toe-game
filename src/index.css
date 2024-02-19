@@ -95,7 +95,7 @@ h1 {
 .player-name {
   display: inline-block;
   width: 10rem;
-  font-size: 1rem;
+  font-size: 1.1rem;
   color: yellow;
   text-transform: uppercase;
   margin: 0;
@@ -107,7 +107,7 @@ h1 {
 
 .player input {
   font: inherit;
-  font-size: 1rem;
+  font-size: 1.1rem;
   width: 10rem;
   border: none;
   padding: 0.5rem;
@@ -118,8 +118,8 @@ h1 {
 }
 
 .player-symbol {
-  margin-left: 1rem;
-  font-size: 1rem;
+  margin-left: 1.1rem;
+  font-size: 1.1rem;
   color: #e1dec7;
 }
 
@@ -139,7 +139,7 @@ ol {
   color: #f8c031;
   border: none;
   font-family: "Caprasimo", cursive;
-  font-size: 4.1rem;
+  font-size: 4rem;
   text-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
   animation: pulse-text-size 2s infinite ease-out;
 }
@@ -170,7 +170,7 @@ ol {
   border: none;
   background: white;
   color: #56baed;
-  font-size: 5.1rem;
+  font-size: 5rem;
   cursor: pointer;
   font-family: "Caprasimo", cursive;
   padding: 1rem;
