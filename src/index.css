@@ -219,7 +219,7 @@ ol {
   background: transparent;
   color: #23221f;
   font: inherit;
-  margin-top: 1.5rem;
+  margin-top: 1.6rem;
 }
 
 @keyframes slide-in-from-left {
@@ -290,8 +290,8 @@ ol {
 @media screen and (max-width: 480px) and (min-width: 320px) {
   #game-container {
     width: 100%;
-    margin: 1.1rem auto;
-    padding: 1.1rem;
+    margin: 1rem auto;
+    padding: 1rem;
   }
 
   #players {
